@@ -1,0 +1,192 @@
+html {
+	scroll-behavior: smooth;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+body{
+	background-color: #A1BC98;
+	margin: 0px;
+	border: 0px;
+	font-family: sans-serif;
+}
+
+.navbar {
+	background-color: #D2DCB6;
+	text-align: center;
+	position: sticky;
+	border-radius: 5px;
+}
+
+.navbar a{
+	display: inline-flex;
+	color: black;
+	text-decoration: none;
+	padding: 15px 20px;
+}
+
+.navbar a:hover{
+	font-weight: bold;
+	display: inline-flex;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    flex-direction: column;
+}
+
+
+
+.profile{
+	display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.im {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.nickname, .last-name{
+    color: white;
+    text-align: right;
+    letter-spacing: 0px;
+   	padding: 0px;
+   	margin: 0px;
+}
+
+.nickname{
+	font-size: 150px;
+    color: ghostwhite ;
+}
+
+.last-name {
+	font-size: 130px;
+	color: black;
+	text-align: center;
+}
+
+.top-line, .bottom-line{
+    width: 80%;
+    height: 3px;
+    background-color: white;
+}
+
+.left-side {
+	flex: 1;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.right-side{
+	
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.photo{
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 80vh;
+    border-radius: 10px;
+}
+
+.section{
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.section h2{
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: floralwhite;
+}
+
+
+
+/* skills styles */
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card{
+    background-color: #D2DCB6;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.skill-card:hover{
+    transform: scale(1.05);
+}
+
+
+/* project styles */
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card{
+    background-color: #D2DCB6;
+    color: #1d3557;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+}
+
+/* contact styles */
+
+.contact a{
+    display: inline-flex;
+    color: #a8dadc;
+    text-decoration: none;
+
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
+
+/* white text for sections outisde boxes */
+#background p, #contact strong{
+    color: black;
+}
