@@ -143,6 +143,7 @@ body{
     min-width: 200px;
     text-align: center;
     transition: transform 0.2s;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .skill-card:hover{
@@ -167,6 +168,7 @@ body{
     max-width: 300px;
     text-align: center;
     transition: transform 0.2s;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .project-card:hover{
@@ -189,4 +191,5 @@ body{
 /* white text for sections outisde boxes */
 #background p, #contact strong{
     color: black;
+
 }
